@@ -1,6 +1,6 @@
 # Preston Issues
 
-GitHub help facilitate open source development through git, a distributed revision control system. 
+GitHub helps facilitate open source development through git, a distributed revision control system. 
 
 Aside from version control through git repositories, GitHub offers issue tracking. 
 
