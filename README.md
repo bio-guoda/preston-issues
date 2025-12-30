@@ -4,7 +4,7 @@ GitHub helps facilitate open source development through git, a distributed revis
 
 Aside from version control through git repositories, GitHub offers issue tracking. 
 
-This repositories keeps track of issues for Preston, a biodiversity dataset tracker. The aim of this repository is to keep track of Preson related communication by making them available through ... a git repository. 
+This repository keeps track of issues for Preston, a biodiversity dataset tracker. The aim of this repository is to keep track of Preson related communication by making them available through ... a git repository. 
 
 ## Methods 
 
