@@ -1,0 +1,111 @@
+{
+  "key": 3323647301,
+  "datasetKey": "d6097f75-f99e-4c2a-b8a5-b0fc213ecbd0",
+  "publishingOrgKey": "cae7b6c7-669a-4261-9a34-6e8cdc16a125",
+  "installationKey": "4ec55ebe-9f92-45ec-b076-dd45f61003ab",
+  "publishingCountry": "US",
+  "protocol": "DWC_ARCHIVE",
+  "lastCrawled": "2021-09-11T09:05:22.434+00:00",
+  "lastParsed": "2021-09-23T21:41:57.598+00:00",
+  "crawlId": 161,
+  "hostingOrganizationKey": "cae7b6c7-669a-4261-9a34-6e8cdc16a125",
+  "extensions": {
+    "http://rs.gbif.org/terms/1.0/Image": [
+      {
+        "http://rs.tdwg.org/ac/terms/subtype": "Photograph",
+        "http://purl.org/dc/terms/type": "StillImage",
+        "http://rs.tdwg.org/ac/terms/accessURI": "https://symbiota.ccber.ucsb.edu:443/content/specimenImages/UCSB_IZC/UCSB-IZC00043/UCSB-IZC00043844_Lateral-scale_1624038527_lg.jpg",
+        "http://ns.adobe.com/xap/1.0/rights/WebStatement": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "http://rs.tdwg.org/ac/terms/metadataLanguage": "en",
+        "http://ns.adobe.com/xap/1.0/rights/UsageTerms": "CC0 1.0 (Public-domain)",
+        "http://rs.tdwg.org/ac/terms/providerManagedID": "urn:uuid:28e36510-91d5-44ad-9d2b-ecbcc861a3ca",
+        "http://purl.org/dc/terms/format": "image/jpeg",
+        "http://rs.tdwg.org/ac/terms/associatedSpecimenReference": "https://symbiota.ccber.ucsb.edu:443/collections/individual/index.php?occid=236560",
+        "http://rs.tdwg.org/ac/terms/thumbnailAccessURI": "https://symbiota.ccber.ucsb.edu:443/content/specimenImages/UCSB_IZC/UCSB-IZC00043/UCSB-IZC00043844_Lateral-scale_1624038527_tn.jpg",
+        "http://ns.adobe.com/xap/1.0/MetadataDate": "2021-06-18 10:48:47",
+        "http://purl.org/dc/terms/identifier": "https://symbiota.ccber.ucsb.edu:443/content/specimenImages/UCSB_IZC/UCSB-IZC00043/UCSB-IZC00043844_Lateral-scale_1624038527_lg.jpg",
+        "http://rs.tdwg.org/ac/terms/goodQualityAccessURI": "https://symbiota.ccber.ucsb.edu:443/content/specimenImages/UCSB_IZC/UCSB-IZC00043/UCSB-IZC00043844_Lateral-scale_1624038527.jpg",
+        "http://ns.adobe.com/xap/1.0/rights/Owner": "University of California, Santa Barbara"
+      }
+    ]
+  },
+  "basisOfRecord": "PRESERVED_SPECIMEN",
+  "individualCount": 1,
+  "occurrenceStatus": "PRESENT",
+  "lifeStage": "Adult",
+  "taxonKey": 1,
+  "kingdomKey": 1,
+  "acceptedTaxonKey": 1,
+  "scientificName": "Animalia",
+  "acceptedScientificName": "Animalia",
+  "kingdom": "Animalia",
+  "genericName": "Animalia",
+  "taxonRank": "KINGDOM",
+  "taxonomicStatus": "ACCEPTED",
+  "decimalLongitude": -118.987733,
+  "decimalLatitude": 34.366483,
+  "coordinateUncertaintyInMeters": 10,
+  "stateProvince": "California",
+  "year": 2021,
+  "month": 6,
+  "day": 4,
+  "eventDate": "2021-06-04T00:00:00",
+  "issues": [
+    "GEODETIC_DATUM_ASSUMED_WGS84",
+    "OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT",
+    "AMBIGUOUS_INSTITUTION"
+  ],
+  "modified": "2021-06-17T15:26:22.000+00:00",
+  "lastInterpreted": "2021-09-23T21:41:57.598+00:00",
+  "references": "https://symbiota.ccber.ucsb.edu:443/collections/individual/index.php?occid=236560",
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "identifiers": [],
+  "media": [
+    {
+      "type": "StillImage",
+      "format": "image/jpeg",
+      "identifier": "https://symbiota.ccber.ucsb.edu:443/content/specimenImages/UCSB_IZC/UCSB-IZC00043/UCSB-IZC00043844_Lateral-scale_1624038527_lg.jpg"
+    }
+  ],
+  "facts": [],
+  "relations": [],
+  "gadm": {
+    "level0": {
+      "gid": "USA",
+      "name": "United States"
+    },
+    "level1": {
+      "gid": "USA.5_1",
+      "name": "California"
+    },
+    "level2": {
+      "gid": "USA.5.56_1",
+      "name": "Ventura"
+    }
+  },
+  "isInCluster": false,
+  "geodeticDatum": "WGS84",
+  "countryCode": "US",
+  "recordedByIDs": [],
+  "identifiedByIDs": [],
+  "country": "United States of America",
+  "rightsHolder": "University of California, Santa Barbara",
+  "identifier": "236560",
+  "habitat": "Riparian wetlands Arundo donax stand",
+  "http://unknown.org/recordId": "urn:uuid:33b2adb1-2f4a-4958-b0d5-26b02190235d",
+  "associatedTaxa": "Arundo donax",
+  "municipality": "Santa Paula",
+  "county": "Ventura",
+  "locality": "Santa Clara River",
+  "collectionCode": "IZC",
+  "gbifID": "3323647301",
+  "occurrenceID": "33b2adb1-2f4a-4958-b0d5-26b02190235d",
+  "recordedBy": "Adam M. Lambert",
+  "catalogNumber": "UCSB-IZC00043844",
+  "institutionCode": "UCSB",
+  "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "startDayOfYear": "155",
+  "accessRights": "https://creativecommons.org/publicdomain/",
+  "http://unknown.org/recordEnteredBy": "cabraman",
+  "collectionID": "e7c51ab1-870b-4ee8-9d62-092875ffa870"
+}

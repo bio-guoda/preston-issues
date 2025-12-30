@@ -1,0 +1,652 @@
+<https://preston.guoda.bio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#SoftwareAgent> <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<https://preston.guoda.bio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<https://preston.guoda.bio> <http://purl.org/dc/terms/description> "Preston is a software program that finds, archives and provides access to biodiversity datasets."@en <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<146a16a6-2a1c-413a-9292-a84b9a6e729b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<146a16a6-2a1c-413a-9292-a84b9a6e729b> <http://purl.org/dc/terms/description> "An event that finds the locations of text matching the regular expression (https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|] inside any encountered content (e.g., hash://sha256/... identifiers)."@en <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<146a16a6-2a1c-413a-9292-a84b9a6e729b> <http://www.w3.org/ns/prov#startedAtTime> "2020-09-23T19:00:07.667Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<146a16a6-2a1c-413a-9292-a84b9a6e729b> <http://www.w3.org/ns/prov#wasStartedBy> <https://preston.guoda.bio> <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<https://doi.org/10.5281/zenodo.1410543> <http://www.w3.org/ns/prov#usedBy> <146a16a6-2a1c-413a-9292-a84b9a6e729b> <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<https://doi.org/10.5281/zenodo.1410543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Software> <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<https://doi.org/10.5281/zenodo.1410543> <http://purl.org/dc/terms/bibliographicCitation> "Jorrit Poelen, Icaro Alzuru, & Michael Elliott. 2019. Preston: a biodiversity dataset tracker (Version 0.0.1-SNAPSHOT) [Software]. Zenodo. http://doi.org/10.5281/zenodo.1410543"@en <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<0659a54f-b713-4f86-a917-5be166a14110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<0659a54f-b713-4f86-a917-5be166a14110> <http://purl.org/dc/terms/description> "A biodiversity dataset graph archive."@en <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<hash://sha256/226595d87d262b16d6c2199578d9c5b5d4e1a4a2b058a4505419a05e4bd27357> <http://www.w3.org/ns/prov#usedBy> <146a16a6-2a1c-413a-9292-a84b9a6e729b> <146a16a6-2a1c-413a-9292-a84b9a6e729b> .
+<https://preston.guoda.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#SoftwareAgent> .
+<https://preston.guoda.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
+<https://preston.guoda.org> <http://purl.org/dc/terms/description> "Preston is a software program that finds, archives and provides access to biodiversity datasets."@en .
+<a12738d5-22d3-4e2d-9e98-e8daab4c42bc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<a12738d5-22d3-4e2d-9e98-e8daab4c42bc> <http://purl.org/dc/terms/description> "A crawl event that discovers biodiversity archives."@en .
+<a12738d5-22d3-4e2d-9e98-e8daab4c42bc> <http://www.w3.org/ns/prov#startedAtTime> "2018-09-05T08:34:18.958Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<a12738d5-22d3-4e2d-9e98-e8daab4c42bc> <http://www.w3.org/ns/prov#wasStartedBy> <https://preston.guoda.org> .
+<0659a54f-b713-4f86-a917-5be166a14110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<0659a54f-b713-4f86-a917-5be166a14110> <http://purl.org/dc/terms/description> "A biodiversity graph archive."@en .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<http://api.gbif.org/v1/dataset/suggest?q=Amazon&amp;type=OCCURRENCE> <http://purl.org/pav/hasVersion> <hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> .
+<ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> <http://www.w3.org/ns/prov#used> <hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<cut:hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5!/b1063-1137> <http://www.w3.org/ns/prov#value> "http://www.freshwaterbiodiversity.eu/metadb/bf_mdb_view.php?entryID=BFE_105" <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<cut:hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5!/b2020-2060> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4243.2.7" <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<cut:hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5!/b2556-2596> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4425.3.1" <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<cut:hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5!/b4934-4974> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4236.2.2" <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<cut:hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5!/b7224-7266> <http://www.w3.org/ns/prov#value> "http://dx.doi.org/10.11646/zootaxa.3669.2.5" <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<cut:hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5!/b8860-8902> <http://www.w3.org/ns/prov#value> "http://dx.doi.org/10.3897/zookeys.740.14640" <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<cut:hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5!/b8910-8952> <http://www.w3.org/ns/prov#value> "http://dx.doi.org/10.3897/zookeys.740.14640" <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<cut:hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5!/b9477-9517> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4236.2.5" <ecfd4eb8-bfbf-40c4-a920-7223bbb91c04> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <82ceb6ba-f762-11e1-a439-00145eb45e9a> .
+<hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:21.053Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/82ceb6ba-f762-11e1-a439-00145eb45e9a> <http://purl.org/pav/hasVersion> <hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25> .
+<033da9c3-16fd-4b63-ae27-62f0b3592b0a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <033da9c3-16fd-4b63-ae27-62f0b3592b0a> .
+<033da9c3-16fd-4b63-ae27-62f0b3592b0a> <http://www.w3.org/ns/prov#used> <hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25> <033da9c3-16fd-4b63-ae27-62f0b3592b0a> .
+<cut:hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25!/b571-599> <http://www.w3.org/ns/prov#value> "http://atrium.andesamazon.org" <033da9c3-16fd-4b63-ae27-62f0b3592b0a> .
+<cut:hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25!/b718-748> <http://www.w3.org/ns/prov#value> "https://doi.org/10.15468/uaq7do" <033da9c3-16fd-4b63-ae27-62f0b3592b0a> .
+<cut:hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25!/b1691-1734> <http://www.w3.org/ns/prov#value> "http://digir.andesamazon.org/digir/DiGIR.php" <033da9c3-16fd-4b63-ae27-62f0b3592b0a> .
+<cut:hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25!/b2702-2763> <http://www.w3.org/ns/prov#value> "http://digir.net/schema/conceptual/darwin/2003/1.0/darwin2.xsd" <033da9c3-16fd-4b63-ae27-62f0b3592b0a> .
+<cut:hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25!/b3611-3665> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by-nc/4.0/legalcode" <033da9c3-16fd-4b63-ae27-62f0b3592b0a> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <58414378-4fb2-47e0-8dd5-8b55d5c77117> .
+<hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:21.907Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/58414378-4fb2-47e0-8dd5-8b55d5c77117> <http://purl.org/pav/hasVersion> <hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8> .
+<722649c7-e2e7-4c99-9f2a-a04bd7084d64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<722649c7-e2e7-4c99-9f2a-a04bd7084d64> <http://www.w3.org/ns/prov#used> <hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8> <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b926-1004> <http://www.w3.org/ns/prov#value> "http://www.freshwaterbiodiversity.eu/metadb/bf_mdb_view.php?entryID&#61;BFE_105" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b1065-1128> <http://www.w3.org/ns/prov#value> "http://data.freshwaterbiodiversity.eu/data/BFE_105-Bolivian_fish" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b1249-1279> <http://www.w3.org/ns/prov#value> "https://doi.org/10.13148/bfe105" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b3282-3343> <http://www.w3.org/ns/prov#value> "http://data.freshwaterbiodiversity.eu/ipt/archive.do?r=bfe_105" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b3584-3641> <http://www.w3.org/ns/prov#value> "http://data.freshwaterbiodiversity.eu/ipt/eml.do?r=bfe_105" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b4086-4096> <http://www.w3.org/ns/prov#value> "http://data" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b4391-4453> <http://www.w3.org/ns/prov#value> "http://data.freshwaterbiodiversity.eu/ipt/resource.do?r=bfe_105" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b5377-5411> <http://www.w3.org/ns/prov#value> "http://gcmd.nasa.gov/User/difguide/" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b5482-5531> <http://www.w3.org/ns/prov#value> "http://gcmd.nasa.gov/User/difguide/iso_topics.html" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b5616-5666> <http://www.w3.org/ns/prov#value> "http://rs.gbif.org/vocabulary/gbif/dataset_type.xml" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b5743-5796> <http://www.w3.org/ns/prov#value> "http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<cut:hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8!/b7033-7090> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/publicdomain/zero/1.0/legalcode" <722649c7-e2e7-4c99-9f2a-a04bd7084d64> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <5a607ce6-eaaf-4420-a302-54ddc767130c> .
+<hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:22.702Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/5a607ce6-eaaf-4420-a302-54ddc767130c> <http://purl.org/pav/hasVersion> <hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd> .
+<eb33a9ae-e123-4aee-8289-ffb5756109e4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <eb33a9ae-e123-4aee-8289-ffb5756109e4> .
+<eb33a9ae-e123-4aee-8289-ffb5756109e4> <http://www.w3.org/ns/prov#used> <hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd> <eb33a9ae-e123-4aee-8289-ffb5756109e4> .
+<cut:hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd!/b654-722> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/7502DF33FFBDFFFFFF8C9233B844FF93" <eb33a9ae-e123-4aee-8289-ffb5756109e4> .
+<cut:hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd!/b899-935> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.202378" <eb33a9ae-e123-4aee-8289-ffb5756109e4> .
+<cut:hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd!/b1667-1682> <http://www.w3.org/ns/prov#value> "http://plazi.org" <eb33a9ae-e123-4aee-8289-ffb5756109e4> .
+<cut:hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd!/b1978-2000> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <eb33a9ae-e123-4aee-8289-ffb5756109e4> .
+<cut:hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd!/b2373-2389> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <eb33a9ae-e123-4aee-8289-ffb5756109e4> .
+<cut:hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd!/b2960-3033> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/7502DF33FFBDFFFFFF8C9233B844FF93.zip" <eb33a9ae-e123-4aee-8289-ffb5756109e4> .
+<cut:hash://sha256/1be396cc33dcdebc2e1d346b3c735099b191d852e400ed10c557a4f21830f6cd!/b3935-3986> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <eb33a9ae-e123-4aee-8289-ffb5756109e4> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <4716951d-11f5-4f31-bb1d-d40c95268ad3> .
+<hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:23.507Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/4716951d-11f5-4f31-bb1d-d40c95268ad3> <http://purl.org/pav/hasVersion> <hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc> .
+<c0993017-5374-4919-89ab-ac2a5f3c61c4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<c0993017-5374-4919-89ab-ac2a5f3c61c4> <http://www.w3.org/ns/prov#used> <hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc> <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b601-641> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4243.2.7" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b673-741> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FFDCFF8268510D6DFFFCFFB0FFB0643D" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b917-947> <http://www.w3.org/ns/prov#value> "https://doi.org/10.15468/za6jw0" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b1666-1681> <http://www.w3.org/ns/prov#value> "http://plazi.org" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b1977-1999> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b2372-2388> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b2959-3028> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/dwca/FFDCFF8268510D6DFFFCFFB0FFB0643D.zip" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b3411-3451> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4243.2.7" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b3719-3777> <http://www.w3.org/ns/prov#value> "http://dx.doi.org/https://doi.org/10.11646/zootaxa.4243.2.7" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<cut:hash://sha256/7d73d2374efed4a5144a0051b457d98279b29453bb81b5a5b87da2ccc12391bc!/b4283-4334> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <c0993017-5374-4919-89ab-ac2a5f3c61c4> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <10b6b053-2ccf-4ca0-8922-486ad098fc56> .
+<hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:24.317Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/10b6b053-2ccf-4ca0-8922-486ad098fc56> <http://purl.org/pav/hasVersion> <hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482> .
+<404acd17-c330-4c46-bda2-7f13fac13293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <404acd17-c330-4c46-bda2-7f13fac13293> .
+<404acd17-c330-4c46-bda2-7f13fac13293> <http://www.w3.org/ns/prov#used> <hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482> <404acd17-c330-4c46-bda2-7f13fac13293> .
+<cut:hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482!/b688-728> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4425.3.1" <404acd17-c330-4c46-bda2-7f13fac13293> .
+<cut:hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482!/b760-828> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/0B19FF8CFFC4FFDD3F0302428255392E" <404acd17-c330-4c46-bda2-7f13fac13293> .
+<cut:hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482!/b1050-1090> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4425.3.1" <404acd17-c330-4c46-bda2-7f13fac13293> .
+<cut:hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482!/b2484-2499> <http://www.w3.org/ns/prov#value> "http://plazi.org" <404acd17-c330-4c46-bda2-7f13fac13293> .
+<cut:hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482!/b2795-2817> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <404acd17-c330-4c46-bda2-7f13fac13293> .
+<cut:hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482!/b3190-3206> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <404acd17-c330-4c46-bda2-7f13fac13293> .
+<cut:hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482!/b3796-3865> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/dwca/0B19FF8CFFC4FFDD3F0302428255392E.zip" <404acd17-c330-4c46-bda2-7f13fac13293> .
+<cut:hash://sha256/5eaf9dc3056d3065c27f3cc14c0f977fe03b9c656f7151d056a5edac830f1482!/b4922-4973> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <404acd17-c330-4c46-bda2-7f13fac13293> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <6b43aef0-e62d-478f-9a88-b692578f0a73> .
+<hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:25.137Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/6b43aef0-e62d-478f-9a88-b692578f0a73> <http://purl.org/pav/hasVersion> <hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd> .
+<1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> .
+<1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> <http://www.w3.org/ns/prov#used> <hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd> <1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> .
+<cut:hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd!/b662-730> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FFBEFF81FE1A9007FFDFFC38FFDCFF90" <1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> .
+<cut:hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd!/b919-955> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.158458" <1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> .
+<cut:hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd!/b1684-1699> <http://www.w3.org/ns/prov#value> "http://plazi.org" <1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> .
+<cut:hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd!/b1995-2017> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> .
+<cut:hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd!/b2390-2406> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> .
+<cut:hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd!/b2977-3050> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/FFBEFF81FE1A9007FFDFFC38FFDCFF90.zip" <1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> .
+<cut:hash://sha256/c09340eb590e4facae90d38b072feda5e319b493c1222569e7eda5a22e07f7cd!/b4104-4155> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <1d2c6d45-1ac7-49c8-b3fe-5f455ff785f3> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <9f2ce723-8926-4f4c-b9f6-a4b596c8c1a9> .
+<hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:25.963Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/9f2ce723-8926-4f4c-b9f6-a4b596c8c1a9> <http://purl.org/pav/hasVersion> <hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448> .
+<046dde60-3677-4813-a810-116368cca1a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <046dde60-3677-4813-a810-116368cca1a1> .
+<046dde60-3677-4813-a810-116368cca1a1> <http://www.w3.org/ns/prov#used> <hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448> <046dde60-3677-4813-a810-116368cca1a1> .
+<cut:hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448!/b723-791> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FF96FFCDA4641875FFA1FFF4D622FFE6" <046dde60-3677-4813-a810-116368cca1a1> .
+<cut:hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448!/b988-1024> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.183631" <046dde60-3677-4813-a810-116368cca1a1> .
+<cut:hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448!/b1747-1762> <http://www.w3.org/ns/prov#value> "http://plazi.org" <046dde60-3677-4813-a810-116368cca1a1> .
+<cut:hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448!/b2058-2080> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <046dde60-3677-4813-a810-116368cca1a1> .
+<cut:hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448!/b2453-2469> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <046dde60-3677-4813-a810-116368cca1a1> .
+<cut:hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448!/b3040-3113> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/FF96FFCDA4641875FFA1FFF4D622FFE6.zip" <046dde60-3677-4813-a810-116368cca1a1> .
+<cut:hash://sha256/7250fd1a1d448c08b1e515790456cbeea61de306942915794a6a36f8b32f3448!/b4015-4066> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <046dde60-3677-4813-a810-116368cca1a1> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <f0096116-c79f-41cd-8376-35587cbe9fcd> .
+<hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:26.749Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/f0096116-c79f-41cd-8376-35587cbe9fcd> <http://purl.org/pav/hasVersion> <hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057> .
+<bdebc1d3-8e56-49f8-a5a8-341af718a710> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <bdebc1d3-8e56-49f8-a5a8-341af718a710> .
+<bdebc1d3-8e56-49f8-a5a8-341af718a710> <http://www.w3.org/ns/prov#used> <hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057> <bdebc1d3-8e56-49f8-a5a8-341af718a710> .
+<cut:hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057!/b686-754> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FF94FFA45210FFCB1178FFF3FF81FFA7" <bdebc1d3-8e56-49f8-a5a8-341af718a710> .
+<cut:hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057!/b946-982> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.214602" <bdebc1d3-8e56-49f8-a5a8-341af718a710> .
+<cut:hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057!/b1705-1720> <http://www.w3.org/ns/prov#value> "http://plazi.org" <bdebc1d3-8e56-49f8-a5a8-341af718a710> .
+<cut:hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057!/b2016-2038> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <bdebc1d3-8e56-49f8-a5a8-341af718a710> .
+<cut:hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057!/b2411-2427> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <bdebc1d3-8e56-49f8-a5a8-341af718a710> .
+<cut:hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057!/b2998-3071> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/FF94FFA45210FFCB1178FFF3FF81FFA7.zip" <bdebc1d3-8e56-49f8-a5a8-341af718a710> .
+<cut:hash://sha256/942f3606107e27b6a0061fe8c105a71d3420ed40f54cd3d5e6ff9dea6543a057!/b4125-4176> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <bdebc1d3-8e56-49f8-a5a8-341af718a710> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <0d875ec4-2366-4592-803d-cf6c61de8df4> .
+<hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:27.610Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/0d875ec4-2366-4592-803d-cf6c61de8df4> <http://purl.org/pav/hasVersion> <hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7> .
+<cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> .
+<cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> <http://www.w3.org/ns/prov#used> <hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7> <cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> .
+<cut:hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7!/b660-728> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FFC4FF86FFFE3537FFF25E541E69FFFC" <cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> .
+<cut:hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7!/b900-936> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.179996" <cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> .
+<cut:hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7!/b1678-1693> <http://www.w3.org/ns/prov#value> "http://plazi.org" <cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> .
+<cut:hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7!/b1989-2011> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> .
+<cut:hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7!/b2384-2400> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> .
+<cut:hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7!/b2971-3044> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/FFC4FF86FFFE3537FFF25E541E69FFFC.zip" <cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> .
+<cut:hash://sha256/6466fde298c09f77e992be9f08869e3756cc94070946d6701cecbe65423940e7!/b4098-4149> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <cb1f0a5e-0b49-4b7a-a712-44bd6fff26fe> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <92b19f16-a3d8-4924-89ff-1800c1d048d0> .
+<hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:28.425Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/92b19f16-a3d8-4924-89ff-1800c1d048d0> <http://purl.org/pav/hasVersion> <hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc> .
+<98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> <http://www.w3.org/ns/prov#used> <hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc> <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<cut:hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc!/b669-709> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4236.2.2" <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<cut:hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc!/b741-809> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/F513FF8FFFC6FE045149A21E8B60FFB0" <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<cut:hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc!/b1001-1031> <http://www.w3.org/ns/prov#value> "https://doi.org/10.15468/55ergt" <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<cut:hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc!/b1758-1773> <http://www.w3.org/ns/prov#value> "http://plazi.org" <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<cut:hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc!/b2069-2091> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<cut:hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc!/b2464-2480> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<cut:hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc!/b3051-3120> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/dwca/F513FF8FFFC6FE045149A21E8B60FFB0.zip" <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<cut:hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc!/b3654-3712> <http://www.w3.org/ns/prov#value> "http://dx.doi.org/https://doi.org/10.11646/zootaxa.4236.2.2" <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<cut:hash://sha256/75c30a6e8a86b4ad4fe1c8a28456dcac8ee00d3139edbbc52ca4484381af9fcc!/b4218-4269> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <98dc9df8-a9fb-4f4d-a2fe-b27d58b6cd85> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <e24ad3dc-e2fe-44a9-983c-d7fb90147e9f> .
+<hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:29.233Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/e24ad3dc-e2fe-44a9-983c-d7fb90147e9f> <http://purl.org/pav/hasVersion> <hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01> .
+<66adde3e-4aa3-4f05-a7de-1663e662843f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <66adde3e-4aa3-4f05-a7de-1663e662843f> .
+<66adde3e-4aa3-4f05-a7de-1663e662843f> <http://www.w3.org/ns/prov#used> <hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01> <66adde3e-4aa3-4f05-a7de-1663e662843f> .
+<cut:hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01!/b702-770> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/3444FFB1712955529057160BFF83D048" <66adde3e-4aa3-4f05-a7de-1663e662843f> .
+<cut:hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01!/b958-994> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.201430" <66adde3e-4aa3-4f05-a7de-1663e662843f> .
+<cut:hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01!/b1722-1737> <http://www.w3.org/ns/prov#value> "http://plazi.org" <66adde3e-4aa3-4f05-a7de-1663e662843f> .
+<cut:hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01!/b2033-2055> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <66adde3e-4aa3-4f05-a7de-1663e662843f> .
+<cut:hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01!/b2428-2444> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <66adde3e-4aa3-4f05-a7de-1663e662843f> .
+<cut:hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01!/b3015-3088> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/3444FFB1712955529057160BFF83D048.zip" <66adde3e-4aa3-4f05-a7de-1663e662843f> .
+<cut:hash://sha256/cc779fba3a1d6f64a1cef5fbf5dd1e3020d569ef90ecfde2a655377e88a2cb01!/b4142-4193> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <66adde3e-4aa3-4f05-a7de-1663e662843f> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <9d215804-dcb2-49ba-82d5-cc927abfb384> .
+<hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:30.027Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/9d215804-dcb2-49ba-82d5-cc927abfb384> <http://purl.org/pav/hasVersion> <hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a> .
+<7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> .
+<7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> <http://www.w3.org/ns/prov#used> <hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a> <7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> .
+<cut:hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a!/b659-727> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FFE44048FF90FFB4FFC3FF82FF98AA63" <7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> .
+<cut:hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a!/b917-953> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.282617" <7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> .
+<cut:hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a!/b1681-1696> <http://www.w3.org/ns/prov#value> "http://plazi.org" <7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> .
+<cut:hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a!/b1992-2014> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> .
+<cut:hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a!/b2387-2403> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> .
+<cut:hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a!/b2974-3047> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/FFE44048FF90FFB4FFC3FF82FF98AA63.zip" <7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> .
+<cut:hash://sha256/92c9685f3f09b23aa995f582711a80cac506cc7d06809c70e36ba3c78d978d6a!/b4101-4152> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <7c0c8872-0b0a-4fe8-a60d-24bd905c4fc4> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <b4683510-1fed-4ad4-bef6-64606e847fe9> .
+<hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:30.821Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/b4683510-1fed-4ad4-bef6-64606e847fe9> <http://purl.org/pav/hasVersion> <hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696> .
+<d074efb7-9952-40e3-a179-0cc63d2f0133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <d074efb7-9952-40e3-a179-0cc63d2f0133> .
+<d074efb7-9952-40e3-a179-0cc63d2f0133> <http://www.w3.org/ns/prov#used> <hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696> <d074efb7-9952-40e3-a179-0cc63d2f0133> .
+<cut:hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696!/b710-778> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/DA11FFD26449AD25FFEBFFBB8F5CFF9C" <d074efb7-9952-40e3-a179-0cc63d2f0133> .
+<cut:hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696!/b984-1020> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.177358" <d074efb7-9952-40e3-a179-0cc63d2f0133> .
+<cut:hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696!/b1768-1783> <http://www.w3.org/ns/prov#value> "http://plazi.org" <d074efb7-9952-40e3-a179-0cc63d2f0133> .
+<cut:hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696!/b2079-2101> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <d074efb7-9952-40e3-a179-0cc63d2f0133> .
+<cut:hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696!/b2474-2490> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <d074efb7-9952-40e3-a179-0cc63d2f0133> .
+<cut:hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696!/b3061-3134> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/DA11FFD26449AD25FFEBFFBB8F5CFF9C.zip" <d074efb7-9952-40e3-a179-0cc63d2f0133> .
+<cut:hash://sha256/73884040e44a6e399c3b3626756a98bd9c08e57f5d0643f76826f4862abe0696!/b4188-4239> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <d074efb7-9952-40e3-a179-0cc63d2f0133> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <d0e838e4-82b0-440b-b876-b62afe416245> .
+<hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:31.608Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/d0e838e4-82b0-440b-b876-b62afe416245> <http://purl.org/pav/hasVersion> <hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1> .
+<cc7c7320-9e66-4a9a-b142-44c1827c08be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <cc7c7320-9e66-4a9a-b142-44c1827c08be> .
+<cc7c7320-9e66-4a9a-b142-44c1827c08be> <http://www.w3.org/ns/prov#used> <hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1> <cc7c7320-9e66-4a9a-b142-44c1827c08be> .
+<cut:hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1!/b644-712> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/194C2213FF9F96415B6DFFACFFA02864" <cc7c7320-9e66-4a9a-b142-44c1827c08be> .
+<cut:hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1!/b894-930> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.195714" <cc7c7320-9e66-4a9a-b142-44c1827c08be> .
+<cut:hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1!/b1665-1680> <http://www.w3.org/ns/prov#value> "http://plazi.org" <cc7c7320-9e66-4a9a-b142-44c1827c08be> .
+<cut:hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1!/b1976-1998> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <cc7c7320-9e66-4a9a-b142-44c1827c08be> .
+<cut:hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1!/b2371-2387> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <cc7c7320-9e66-4a9a-b142-44c1827c08be> .
+<cut:hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1!/b2958-3031> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/194C2213FF9F96415B6DFFACFFA02864.zip" <cc7c7320-9e66-4a9a-b142-44c1827c08be> .
+<cut:hash://sha256/5acf22123f63da04e2bc677003cd97148ef8c6f3d21f0a3326f00479f24904b1!/b3933-3984> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <cc7c7320-9e66-4a9a-b142-44c1827c08be> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <b3262114-8580-4828-973d-b743d1034d00> .
+<hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:32.422Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/b3262114-8580-4828-973d-b743d1034d00> <http://purl.org/pav/hasVersion> <hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc> .
+<967e9b6f-614e-4b58-a385-7b389a7c10d5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<967e9b6f-614e-4b58-a385-7b389a7c10d5> <http://www.w3.org/ns/prov#used> <hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc> <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<cut:hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc!/b607-649> <http://www.w3.org/ns/prov#value> "http://dx.doi.org/10.11646/zootaxa.3669.2.5" <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<cut:hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc!/b681-749> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FFE5FFC1FFA7FFB00A6AFF88FF9AFFE2" <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<cut:hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc!/b929-969> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.3669.2.5" <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<cut:hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc!/b1697-1712> <http://www.w3.org/ns/prov#value> "http://plazi.org" <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<cut:hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc!/b2008-2030> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<cut:hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc!/b2403-2419> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<cut:hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc!/b2990-3063> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/FFE5FFC1FFA7FFB00A6AFF88FF9AFFE2.zip" <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<cut:hash://sha256/2cd9d223de50e4d742bfff19ec180b117ea9fc29481dd245ee5ed5bede6bbbdc!/b4117-4168> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <967e9b6f-614e-4b58-a385-7b389a7c10d5> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <a1d56c0b-d41f-42c1-91d2-417ab340969f> .
+<hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:33.220Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/a1d56c0b-d41f-42c1-91d2-417ab340969f> <http://purl.org/pav/hasVersion> <hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32> .
+<2f41ad88-959e-4d46-8722-1bf169db9bbd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <2f41ad88-959e-4d46-8722-1bf169db9bbd> .
+<2f41ad88-959e-4d46-8722-1bf169db9bbd> <http://www.w3.org/ns/prov#used> <hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32> <2f41ad88-959e-4d46-8722-1bf169db9bbd> .
+<cut:hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32!/b728-796> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FF80FFEEA031FFEBE468FFE4745DFFFD" <2f41ad88-959e-4d46-8722-1bf169db9bbd> .
+<cut:hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32!/b962-1002> <http://www.w3.org/ns/prov#value> "https://doi.org/10.1007/s12228-017-9464-6" <2f41ad88-959e-4d46-8722-1bf169db9bbd> .
+<cut:hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32!/b1709-1724> <http://www.w3.org/ns/prov#value> "http://plazi.org" <2f41ad88-959e-4d46-8722-1bf169db9bbd> .
+<cut:hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32!/b2014-2030> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <2f41ad88-959e-4d46-8722-1bf169db9bbd> .
+<cut:hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32!/b2601-2670> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/dwca/FF80FFEEA031FFEBE468FFE4745DFFFD.zip" <2f41ad88-959e-4d46-8722-1bf169db9bbd> .
+<cut:hash://sha256/eb6e46c12e8861eea85678ed8aca21556fa4c9e03afb133ad35db10ff9702d32!/b3574-3625> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <2f41ad88-959e-4d46-8722-1bf169db9bbd> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <1edd9658-1b17-4794-bbf0-e2eccb017fd3> .
+<hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:34.003Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/1edd9658-1b17-4794-bbf0-e2eccb017fd3> <http://purl.org/pav/hasVersion> <hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30> .
+<15137733-1b3e-4a57-9819-cbd3ac0b8164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <15137733-1b3e-4a57-9819-cbd3ac0b8164> .
+<15137733-1b3e-4a57-9819-cbd3ac0b8164> <http://www.w3.org/ns/prov#used> <hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30> <15137733-1b3e-4a57-9819-cbd3ac0b8164> .
+<cut:hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30!/b724-792> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FFB1275D2F39C152FFEAD31D865D0A4E" <15137733-1b3e-4a57-9819-cbd3ac0b8164> .
+<cut:hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30!/b1001-1037> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.182896" <15137733-1b3e-4a57-9819-cbd3ac0b8164> .
+<cut:hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30!/b1766-1781> <http://www.w3.org/ns/prov#value> "http://plazi.org" <15137733-1b3e-4a57-9819-cbd3ac0b8164> .
+<cut:hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30!/b2077-2099> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <15137733-1b3e-4a57-9819-cbd3ac0b8164> .
+<cut:hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30!/b2472-2488> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <15137733-1b3e-4a57-9819-cbd3ac0b8164> .
+<cut:hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30!/b3059-3132> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/FFB1275D2F39C152FFEAD31D865D0A4E.zip" <15137733-1b3e-4a57-9819-cbd3ac0b8164> .
+<cut:hash://sha256/e5e0fa5b7b4fec40a54a950b77ffe3e3ccd8c9ff056149bb842daae661b97f30!/b4034-4085> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <15137733-1b3e-4a57-9819-cbd3ac0b8164> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <bbe844d6-89b6-4c9b-9cd1-4b7a8c332dc5> .
+<hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:34.798Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/bbe844d6-89b6-4c9b-9cd1-4b7a8c332dc5> <http://purl.org/pav/hasVersion> <hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf> .
+<0fa1240b-5612-43e5-9499-dd155e765762> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <0fa1240b-5612-43e5-9499-dd155e765762> .
+<0fa1240b-5612-43e5-9499-dd155e765762> <http://www.w3.org/ns/prov#used> <hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf> <0fa1240b-5612-43e5-9499-dd155e765762> .
+<cut:hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf!/b778-820> <http://www.w3.org/ns/prov#value> "http://dx.doi.org/10.3897/zookeys.740.14640" <0fa1240b-5612-43e5-9499-dd155e765762> .
+<cut:hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf!/b828-870> <http://www.w3.org/ns/prov#value> "http://dx.doi.org/10.3897/zookeys.740.14640" <0fa1240b-5612-43e5-9499-dd155e765762> .
+<cut:hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf!/b902-970> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/FFF76241FFB3B773A711FF98DF6BFFF3" <0fa1240b-5612-43e5-9499-dd155e765762> .
+<cut:hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf!/b1204-1244> <http://www.w3.org/ns/prov#value> "https://doi.org/10.3897/zookeys.740.14640" <0fa1240b-5612-43e5-9499-dd155e765762> .
+<cut:hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf!/b1965-1980> <http://www.w3.org/ns/prov#value> "http://plazi.org" <0fa1240b-5612-43e5-9499-dd155e765762> .
+<cut:hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf!/b2272-2293> <http://www.w3.org/ns/prov#value> "http://www.pensoft.net" <0fa1240b-5612-43e5-9499-dd155e765762> .
+<cut:hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf!/b2705-2721> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <0fa1240b-5612-43e5-9499-dd155e765762> .
+<cut:hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf!/b3292-3361> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/dwca/FFF76241FFB3B773A711FF98DF6BFFF3.zip" <0fa1240b-5612-43e5-9499-dd155e765762> .
+<cut:hash://sha256/e2b636444ae4f7330026b1fec8f4f8354d33315173d52188d13509c509453dbf!/b4265-4316> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <0fa1240b-5612-43e5-9499-dd155e765762> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <6e68c0bd-4d98-4a19-a066-e610c60b9478> .
+<hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:35.579Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/6e68c0bd-4d98-4a19-a066-e610c60b9478> <http://purl.org/pav/hasVersion> <hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0> .
+<7fdd379d-451c-476b-99c2-c8c53d66e7f0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<7fdd379d-451c-476b-99c2-c8c53d66e7f0> <http://www.w3.org/ns/prov#used> <hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0> <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<cut:hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0!/b707-747> <http://www.w3.org/ns/prov#value> "https://doi.org/10.11646/zootaxa.4236.2.5" <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<cut:hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0!/b779-847> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/EF79FFAB5F37FFAB0964FFB40527CC26" <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<cut:hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0!/b1068-1098> <http://www.w3.org/ns/prov#value> "https://doi.org/10.15468/lrphb9" <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<cut:hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0!/b1823-1838> <http://www.w3.org/ns/prov#value> "http://plazi.org" <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<cut:hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0!/b2134-2156> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<cut:hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0!/b2529-2545> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<cut:hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0!/b3116-3185> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/dwca/EF79FFAB5F37FFAB0964FFB40527CC26.zip" <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<cut:hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0!/b3719-3777> <http://www.w3.org/ns/prov#value> "http://dx.doi.org/https://doi.org/10.11646/zootaxa.4236.2.5" <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<cut:hash://sha256/ed1f953583227e824ab118dcfd39aef9ff40f52dacd238429fd8f0e2b4d492d0!/b4283-4334> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <7fdd379d-451c-476b-99c2-c8c53d66e7f0> .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:19.891Z" .
+<hash://sha256/6d86c332b045e74fe4410f79655a1f47596808c057f30779b9584dba38fa25d5> <http://www.w3.org/ns/prov#hadMember> <663199f1-3528-4289-8069-d27552f62f10> .
+<hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:36.347Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+<https://api.gbif.org/v1/dataset/663199f1-3528-4289-8069-d27552f62f10> <http://purl.org/pav/hasVersion> <hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2> .
+<f91880ac-39f9-461d-9108-91434162c418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> <f91880ac-39f9-461d-9108-91434162c418> .
+<f91880ac-39f9-461d-9108-91434162c418> <http://www.w3.org/ns/prov#used> <hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2> <f91880ac-39f9-461d-9108-91434162c418> .
+<cut:hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2!/b784-852> <http://www.w3.org/ns/prov#value> "http://tb.plazi.org/GgServer/summary/341C9C4FFFDDFFEF8D1DFFCBCB25FF90" <f91880ac-39f9-461d-9108-91434162c418> .
+<cut:hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2!/b1084-1120> <http://www.w3.org/ns/prov#value> "https://doi.org/10.5281/zenodo.201416" <f91880ac-39f9-461d-9108-91434162c418> .
+<cut:hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2!/b1852-1867> <http://www.w3.org/ns/prov#value> "http://plazi.org" <f91880ac-39f9-461d-9108-91434162c418> .
+<cut:hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2!/b2163-2185> <http://www.w3.org/ns/prov#value> "http://www.mapress.com/" <f91880ac-39f9-461d-9108-91434162c418> .
+<cut:hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2!/b2558-2574> <http://www.w3.org/ns/prov#value> "http://plazi.org/" <f91880ac-39f9-461d-9108-91434162c418> .
+<cut:hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2!/b3145-3218> <http://www.w3.org/ns/prov#value> "http://plazi.cs.umb.edu/GgServer/dwca/341C9C4FFFDDFFEF8D1DFFCBCB25FF90.zip" <f91880ac-39f9-461d-9108-91434162c418> .
+<cut:hash://sha256/66f7a1ebfaf9518bb813dff4fdd8c78f5630a31be4cc3e1e4afc0a562eb14fa2!/b4120-4171> <http://www.w3.org/ns/prov#value> "http://creativecommons.org/licenses/by/4.0/legalcode" <f91880ac-39f9-461d-9108-91434162c418> .
+<hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:21.053Z" .
+<hash://sha256/f6a9c77382d8e4efa15236d5ef002d8ba97ecad4b6f1a8dc044053113fee8d25> <http://www.w3.org/ns/prov#hadMember> <82ceb6ba-f762-11e1-a439-00145eb45e9a> .
+<hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:21.907Z" .
+<hash://sha256/052c70c60e7c17123a1bdf18d2ce607cee1b0d96157b6174aae08a2f2f8d53d8> <http://www.w3.org/ns/prov#hadMember> <58414378-4fb2-47e0-8dd5-8b55d5c77117> .
+<58414378-4fb2-47e0-8dd5-8b55d5c77117> <http://www.w3.org/ns/prov#hadMember> <http://data.freshwaterbiodiversity.eu/ipt/archive.do?r=bfe_105> .
+<http://data.freshwaterbiodiversity.eu/ipt/archive.do?r=bfe_105> <http://purl.org/dc/elements/1.1/format> "application/dwca" .
+<hash://sha256/97cbeae429fbc95d1859f7afa28b33f08ac64125ba72511c49c4b77ca66d2d66> <http://www.w3.org/ns/prov#generatedAtTime> "2018-09-05T08:34:39.513Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<hash://sha256/97cbeae429fbc95d1859f7afa28b33f08ac64125ba72511c49c4b77ca66d2d66> <http://www.w3.org/ns/prov#wasGeneratedBy> <a12738d5-22d3-4e2d-9e98-e8daab4c42bc> .
+Sep 23, 2020 12:00:09 PM bio.guoda.preston.cmd.CmdLine run
+SEVERE: unexpected exception
+java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at bio.guoda.preston.process.TextMatcher.parseAsText(TextMatcher.java:163)
+	at bio.guoda.preston.process.TextMatcher.attemptToParseAsText(TextMatcher.java:131)
+	at bio.guoda.preston.process.TextMatcher.attemptToParse(TextMatcher.java:89)
+	at bio.guoda.preston.process.TextMatcher.parseAsArchive(TextMatcher.java:143)
+	at bio.guoda.preston.process.TextMatcher.attemptToParseAsArchive(TextMatcher.java:95)
+	at bio.guoda.preston.process.TextMatcher.attemptToParse(TextMatcher.java:87)
+	at bio.guoda.preston.process.TextMatcher.on(TextMatcher.java:71)
+	at bio.guoda.preston.process.StatementsListenerEmitterAdapter.on(StatementsListenerEmitterAdapter.java:12)
+	at bio.guoda.preston.cmd.CmdProcess.handleNonBlankMessages(CmdProcess.java:76)
+	at bio.guoda.preston.cmd.CmdProcess.access$000(CmdProcess.java:28)
+	at bio.guoda.preston.cmd.CmdProcess$1.emit(CmdProcess.java:52)
+	at bio.guoda.preston.cmd.CmdProcess$1.emit(CmdProcess.java:47)
+	at bio.guoda.preston.process.EmittingStreamRDF.copyOnEmit(EmittingStreamRDF.java:51)
+	at bio.guoda.preston.process.EmittingStreamRDF.parseAndEmit(EmittingStreamRDF.java:40)
+	at bio.guoda.preston.cmd.CmdProcess.processQueue(CmdProcess.java:57)
+	at bio.guoda.preston.cmd.CmdActivity.run(CmdActivity.java:125)
+	at bio.guoda.preston.cmd.CmdActivity.run(CmdActivity.java:78)
+	at bio.guoda.preston.cmd.CmdLine.run(CmdLine.java:18)
+	at bio.guoda.preston.cmd.CmdLine.run(CmdLine.java:26)
+	at bio.guoda.preston.Preston.main(Preston.java:19)
+
+Usage: <main class> [command] [command options]
+  Commands:
+    ls(log,logs)      show biodiversity dataset provenance logs
+      Usage: ls(log,logs) [options]
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          -l, --log
+            log format
+            Default: nquads
+            Possible Values: [tsv, nquads, dots]
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    hash      offline (re-)processing of tracked biodiversity dataset graph 
+            using stdin
+      Usage: hash [options]
+        Options:
+          --hash-algorithm, --algo, -a
+            hash algorithm used for verification
+            Default: sha256
+            Possible Values: [sha256, tika_tlsh, tlsh]
+
+    get(cat)      get biodiversity data
+      Usage: get(cat) [options] data content-hash uri (e.g., 
+            [hash://sha256/8ed311...]) 
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    cp(copyTo,export)      Copy biodiversity dataset graph
+      Usage: cp(copyTo,export) [options] [target directory]
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          -l, --log
+            log format
+            Default: nquads
+            Possible Values: [tsv, nquads, dots]
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+          -t, --type
+            archive type
+            Default: data_prov_provindex
+            Possible Values: [data_prov_provindex, provindex, prov, data, jekyll]
+
+    clone(pull)      Clone biodiversity dataset graph
+      Usage: clone(pull) [options] remote repositories (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          -l, --log
+            log format
+            Default: nquads
+            Possible Values: [tsv, nquads, dots]
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    update(track)      update biodiversity dataset graph
+      Usage: update(track) [options] [url1] [url2] ...
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          -l, --log
+            log format
+            Default: nquads
+            Possible Values: [tsv, nquads, dots]
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          -u, --seed
+            starting points for graph discovery. Only active when no content 
+            urls are provided.
+            Default: [https://idigbio.org, https://gbif.org, http://biocase.org]
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    process(handle)      offline (re-)processing of tracked biodiversity 
+            dataset graph using stdin
+      Usage: process(handle) [options]
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          -l, --log
+            log format
+            Default: nquads
+            Possible Values: [tsv, nquads, dots]
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    tika(tika-tlsh)      Generates Tika TLSH associated with any encountered 
+            hash://sha256 IRIs
+      Usage: tika(tika-tlsh) [options]
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          -l, --log
+            log format
+            Default: nquads
+            Possible Values: [tsv, nquads, dots]
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    similar(similarity)      Describes similarity between contents identified 
+            by hash://sha256 IRIs according to their hash://tika-tlsh IRIs
+      Usage: similar(similarity) [options]
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          -l, --log
+            log format
+            Default: nquads
+            Possible Values: [tsv, nquads, dots]
+          --hits, --max-hits, --matches, --max-matches
+            maximum number of similar contents to record for each content
+            Default: 100
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --thresh, --threshold, --similarity-threshold
+            minimum similarity score required for a content similarity to be 
+            recorded 
+            Default: 100.0
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    history      show history of biodiversity dataset graph
+      Usage: history [options]
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          -l, --log
+            log format
+            Default: nquads
+            Possible Values: [tsv, nquads, dots]
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    version      show version
+      Usage: version
+
+    test(verify,check,validate)      verifies completeness and integrity of 
+            the local biodiversity dataset graph
+      Usage: test(verify,check,validate) [options]
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --hash-algorithm
+            hash algorithm used for verification
+            Default: sha256
+            Possible Values: [sha256, tika_tlsh, tlsh]
+          --skip-hash-verification
+            do not verify hash, just check availability
+            Default: false
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    seeds      lists supported biodiversity networks
+      Usage: seeds
+
+    text(extract-text)      extract text from binary stdin
+      Usage: text(extract-text) [options] data content-hash uri (e.g., 
+            [hash://sha256/8ed311...]) 
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+    match(findURLs)      Searches identified contents for text that matches 
+            the provided regular expression
+      Usage: match(findURLs) [options] regular expression
+        Options:
+          --data-dir
+            location of local content cache
+            Default: data
+          --no-cache, --disable-cache
+            disable local content cache
+            Default: false
+          -l, --log
+            log format
+            Default: nquads
+            Possible Values: [tsv, nquads, dots]
+          --remote, --remotes, --include, --repos, --repositories
+            included repositories dependency (e.g., 
+            https://deeplinker.bio/,https://example.org) 
+          --tmp-dir
+            location of local tmp dir
+            Default: tmp
+
+java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at bio.guoda.preston.process.TextMatcher.parseAsText(TextMatcher.java:163)
+	at bio.guoda.preston.process.TextMatcher.attemptToParseAsText(TextMatcher.java:131)
+	at bio.guoda.preston.process.TextMatcher.attemptToParse(TextMatcher.java:89)
+	at bio.guoda.preston.process.TextMatcher.parseAsArchive(TextMatcher.java:143)
+	at bio.guoda.preston.process.TextMatcher.attemptToParseAsArchive(TextMatcher.java:95)
+	at bio.guoda.preston.process.TextMatcher.attemptToParse(TextMatcher.java:87)
+	at bio.guoda.preston.process.TextMatcher.on(TextMatcher.java:71)
+	at bio.guoda.preston.process.StatementsListenerEmitterAdapter.on(StatementsListenerEmitterAdapter.java:12)
+	at bio.guoda.preston.cmd.CmdProcess.handleNonBlankMessages(CmdProcess.java:76)
+	at bio.guoda.preston.cmd.CmdProcess.access$000(CmdProcess.java:28)
+	at bio.guoda.preston.cmd.CmdProcess$1.emit(CmdProcess.java:52)
+	at bio.guoda.preston.cmd.CmdProcess$1.emit(CmdProcess.java:47)
+	at bio.guoda.preston.process.EmittingStreamRDF.copyOnEmit(EmittingStreamRDF.java:51)
+	at bio.guoda.preston.process.EmittingStreamRDF.parseAndEmit(EmittingStreamRDF.java:40)
+	at bio.guoda.preston.cmd.CmdProcess.processQueue(CmdProcess.java:57)
+	at bio.guoda.preston.cmd.CmdActivity.run(CmdActivity.java:125)
+	at bio.guoda.preston.cmd.CmdActivity.run(CmdActivity.java:78)
+	at bio.guoda.preston.cmd.CmdLine.run(CmdLine.java:18)
+	at bio.guoda.preston.cmd.CmdLine.run(CmdLine.java:26)
+	at bio.guoda.preston.Preston.main(Preston.java:19)
